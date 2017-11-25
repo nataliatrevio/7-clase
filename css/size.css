@@ -19,10 +19,23 @@ body {
 }
 
 main {
+	font-family: herlvetica, arial;
+	font-style: normal;
+	font-size: 100%;
+	color: white;
 	width: 100%
 	height: 100%;
 	position: absolute;
 	background-image: url(file:///Users/Nat/Documents/Hub%20Camp/7_clase/img/K4FGc8v.png);
 	background-size: 100px 100px
-	color: #fff;
+	color: rgb(0,0,0);
+	
 }	
+
+h1 {
+	background: rgb(174,188,191); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(174,188,191,1) 39%, rgba(174,188,191,1) 39%, rgba(110,119,116,1) 63%, rgba(10,14,10,1) 93%, rgba(10,8,9,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(174,188,191,1) 39%,rgba(174,188,191,1) 39%,rgba(110,119,116,1) 63%,rgba(10,14,10,1) 93%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(174,188,191,1) 39%,rgba(174,188,191,1) 39%,rgba(110,119,116,1) 63%,rgba(10,14,10,1) 93%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 */
+}
